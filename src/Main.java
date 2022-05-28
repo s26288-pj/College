@@ -9,6 +9,7 @@ public class Main {
         student.setYearOfBirth(1999);
         student.setGender('M');
         student.setIndex("s26288");
+        student.print();
 
         Stypendysta stypendysta = new Stypendysta();
         stypendysta.setName("Kamil");
@@ -16,9 +17,9 @@ public class Main {
         stypendysta.setYearOfBirth(1995);
         stypendysta.setGender('M');
         stypendysta.setSum(800);
-
         stypendysta.print();
-        System.out.println();
-        student.print();
+
+        System.out.println(stypendysta.text);
+        System.out.println(student.text);
     }
 }

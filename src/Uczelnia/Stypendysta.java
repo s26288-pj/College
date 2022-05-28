@@ -12,11 +12,10 @@ public class Stypendysta extends Student{
     }
 
     public void print() {
-        System.out.println(
-                "Imie: " + this.name + "\n"
+        setText("Imie: " + this.name + "\n"
                 + "Nazwisko: " + this.surname + "\n"
                 + "Rok urodzenia: " + this.yearOfBirth + "\n"
                 + "Plec: " + this.gender + "\n"
-                + "Stypendium: " + this.sum);
+                +"Stypendium: " + this.sum);
     }
 }

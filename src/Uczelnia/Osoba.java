@@ -1,6 +1,7 @@
 package Uczelnia;
 
 public class Osoba {
+    public String text;
     protected String name;
     protected String surname;
     protected int yearOfBirth;
@@ -38,11 +39,11 @@ public class Osoba {
         this.gender = gender;
     }
 
-    public void print() {
-        System.out.println(
-                "Imie: " + this.name + "\n"
-                        + "Nazwisko: " + this.surname + "\n"
-                        + "Rok urodzenia: " + this.yearOfBirth + "\n"
-                        + "Plec: " + this.gender);
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String getText() {
+        return text;
     }
 }

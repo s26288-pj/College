@@ -12,11 +12,10 @@ public class Wykladowca extends Osoba {
     }
 
     public void print() {
-        System.out.println(
-                "Imie: " + this.name + "\n"
-                        + "Nazwisko: " + this.surname + "\n"
-                        + "Rok urodzenia: " + this.yearOfBirth + "\n"
-                        + "Plec: " + this.gender + "\n"
-                        + "Tytul: " + this.title);
+        setText("Imie: " + this.name + "\n"
+                + "Nazwisko: " + this.surname + "\n"
+                + "Rok urodzenia: " + this.yearOfBirth + "\n"
+                + "Plec: " + this.gender + "\n"
+                +"Tytul: " + this.title);
     }
 }
